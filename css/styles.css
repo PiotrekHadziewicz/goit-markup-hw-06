@@ -518,7 +518,7 @@ ul {
   border-radius: 2px;
   background-image: url(../images/checkbox.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 16px;
   background-position: center;
 }
 .form-link {
