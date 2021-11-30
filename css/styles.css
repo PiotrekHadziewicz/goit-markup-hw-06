@@ -466,11 +466,12 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:focus,
-.modal-input:focus .person-icon,
-.modal-input:focus .tel-icon,
-.modal-input:focus .email-icon {
+.modal-input:focus {
   border: 1px solid var(--hover-color);
+}
+.modal-input:focus + .person-icon,
+.modal-input:focus + .tel-icon,
+.modal-input:focus + .email-icon {
   fill: var(--hover-color);
 }
 .modal-textarea {
@@ -518,7 +519,6 @@ ul {
   border-radius: 2px;
   background-image: url(../images/checkbox.svg);
   background-repeat: no-repeat;
-  background-size: 16px;
   background-position: center;
 }
 .form-link {
